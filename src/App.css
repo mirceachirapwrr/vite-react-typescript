@@ -68,6 +68,8 @@
 }
 
 @media (prefers-reduced-motion: no-preference) {
+  /* make the react logo rotate: */
+  /* .logo:nth-of-type(1) { */
   a:nth-of-type(1) .logo {
     animation: logo-spin infinite 20s linear;
   }
